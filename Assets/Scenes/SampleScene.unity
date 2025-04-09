@@ -1032,6 +1032,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 936daf88295106d4587e2585002e5f4d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isOpponent: 1
+  movements: {fileID: 1399285263}
 --- !u!114 &1399285263
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1044,7 +1046,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0eafd560a0fbf0540bcc1384812811ca, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isOpponent: 1
   moveSpeed: 5
   gravity: -9.81
   jumpHeight: 1.5
@@ -1079,8 +1080,8 @@ GameObject:
   - component: {fileID: 1934193420}
   - component: {fileID: 1934193419}
   - component: {fileID: 1934193424}
-  - component: {fileID: 1934193423}
   - component: {fileID: 1934193425}
+  - component: {fileID: 1934193423}
   m_Layer: 0
   m_Name: UserPlayer
   m_TagString: Untagged
@@ -1178,7 +1179,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0eafd560a0fbf0540bcc1384812811ca, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isOpponent: 0
   moveSpeed: 5
   gravity: -9.81
   jumpHeight: 1.5
@@ -1212,3 +1212,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 936daf88295106d4587e2585002e5f4d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isOpponent: 0
+  movements: {fileID: 1934193423}
